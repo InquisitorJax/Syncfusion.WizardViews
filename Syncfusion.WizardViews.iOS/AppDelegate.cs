@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Syncfusion.SfRotator.XForms.iOS;
 using UIKit;
 
 namespace Syncfusion.WizardViews.iOS
@@ -23,7 +24,10 @@ namespace Syncfusion.WizardViews.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+
+			new SfRotatorRenderer();
+
+			LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
         }

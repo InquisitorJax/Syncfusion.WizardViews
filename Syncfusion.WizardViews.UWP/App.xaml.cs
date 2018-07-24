@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Syncfusion.SfRotator.XForms.UWP;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -52,7 +54,13 @@ namespace Syncfusion.WizardViews.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
-                Xamarin.Forms.Forms.Init(e);
+				// you'll need to add `using System.Reflection;`
+				List<Assembly> assembliesToInclude = new List<Assembly>();
+
+				//Now, add all the assemblies your app uses
+				assembliesToInclude.Add(typeof(SfRotatorRenderer).GetTypeInfo().Assembly);
+
+				Xamarin.Forms.Forms.Init(e);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

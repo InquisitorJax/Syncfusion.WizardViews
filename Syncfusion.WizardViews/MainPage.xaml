@@ -1,14 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Syncfusion.WizardViews"
-             x:Class="Syncfusion.WizardViews.MainPage">
+<ContentPage
+	x:Class="Syncfusion.WizardViews.MainPage"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:Syncfusion.WizardViews"
+	xmlns:xforms="clr-namespace:Syncfusion.SfRotator.XForms;assembly=Syncfusion.SfRotator.XForms">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+	<Grid>
+
+		<xforms:SfRotator
+			x:Name="rotator"
+			DotPlacement="Default"
+			DotsBorderColor="Transparent"
+			EnableLooping="False"
+			NavigationDirection="Horizontal"
+			NavigationStripMode="Dots"
+			NavigationStripPosition="Bottom"
+			SelectedDotColor="White"
+			UnselectedDotColor="Black">
+			<xforms:SfRotator.DataSource>
+				<xforms:SfRotatorItem>
+					<xforms:SfRotatorItem.ItemContent>
+						<local:Page1View />
+					</xforms:SfRotatorItem.ItemContent>
+				</xforms:SfRotatorItem>
+				<xforms:SfRotatorItem>
+					<xforms:SfRotatorItem.ItemContent>
+						<local:Page2View />
+					</xforms:SfRotatorItem.ItemContent>
+				</xforms:SfRotatorItem>
+				<xforms:SfRotatorItem>
+					<xforms:SfRotatorItem.ItemContent>
+						<local:Page3View />
+					</xforms:SfRotatorItem.ItemContent>
+				</xforms:SfRotatorItem>
+			</xforms:SfRotator.DataSource>
+		</xforms:SfRotator>
+	</Grid>
 
 </ContentPage>
