@@ -1,0 +1,12 @@
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\bin\Debug\netstandard2.0\Syncfusion.WizardViews.deps.json
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\bin\Debug\netstandard2.0\Syncfusion.WizardViews.dll
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\bin\Debug\netstandard2.0\Syncfusion.WizardViews.pdb
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\obj\Debug\netstandard2.0\Syncfusion.WizardViews.csprojAssemblyReference.cache
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\obj\Debug\netstandard2.0\Syncfusion.WizardViews.csproj.CoreCompileInputs.cache
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\obj\Debug\netstandard2.0\Syncfusion.WizardViews.AssemblyInfoInputs.cache
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\obj\Debug\netstandard2.0\Syncfusion.WizardViews.AssemblyInfo.cs
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\obj\Debug\netstandard2.0\Syncfusion.WizardViews.dll
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\obj\Debug\netstandard2.0\Syncfusion.WizardViews.pdb
+C:\DEV\Git\Syncfusion.WizardViews\Syncfusion.WizardViews\obj\Debug\netstandard2.0\XamlC.stamp
