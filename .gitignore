@@ -2,4 +2,11 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/Syncfusion.WizardViews
+/.vs
+
+/Syncfusion.WizardViews/obj
+/Syncfusion.WizardViews/bin
+/Syncfusion.WizardViews.Android/obj
+/Syncfusion.WizardViews.Android/bin
+/Syncfusion.WizardViews.iOS/obj
+/Syncfusion.WizardViews.UWP/obj
