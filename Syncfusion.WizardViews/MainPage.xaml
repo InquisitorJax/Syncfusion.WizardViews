@@ -1,23 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-	x:Class="Syncfusion.WizardViews.MainPage"
-	xmlns="http://xamarin.com/schemas/2014/forms"
-	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	xmlns:local="clr-namespace:Syncfusion.WizardViews"
-	xmlns:xforms="clr-namespace:Syncfusion.SfRotator.XForms;assembly=Syncfusion.SfRotator.XForms">
+<ContentPage x:Class="Syncfusion.WizardViews.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Syncfusion.WizardViews"
+             xmlns:xforms="clr-namespace:Syncfusion.SfRotator.XForms;assembly=Syncfusion.SfRotator.XForms">
 
 	<Grid>
 
-		<xforms:SfRotator
-			x:Name="rotator"
-			DotPlacement="Default"
-			DotsBorderColor="Transparent"
-			EnableLooping="False"
-			NavigationDirection="Horizontal"
-			NavigationStripMode="Dots"
-			NavigationStripPosition="Bottom"
-			SelectedDotColor="White"
-			UnselectedDotColor="Black">
+		<xforms:SfRotator x:Name="rotator"
+		                  DotPlacement="Default"
+		                  DotsBorderColor="Transparent"
+		                  EnableLooping="False"
+		                  NavigationDirection="Horizontal"
+		                  NavigationStripMode="Dots"
+		                  NavigationStripPosition="Bottom"
+		                  SelectedDotColor="White"
+		                  SelectedIndex="{Binding SelectedIndex}"
+		                  UnselectedDotColor="Black">
 			<xforms:SfRotator.DataSource>
 				<xforms:SfRotatorItem>
 					<xforms:SfRotatorItem.ItemContent>

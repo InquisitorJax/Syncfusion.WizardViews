@@ -11,6 +11,7 @@ namespace Syncfusion.WizardViews
 	{
 		public MainPage()
 		{
+			BindingContext = new MainViewModel();
 			InitializeComponent();
 		}
 	}
