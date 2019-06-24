@@ -15,7 +15,7 @@
 		                  NavigationStripMode="Dots"
 		                  NavigationStripPosition="Bottom"
 		                  SelectedDotColor="White"
-		                  SelectedIndex="{Binding SelectedIndex}"
+		                  SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}"
 		                  UnselectedDotColor="Black">
 			<xforms:SfRotator.DataSource>
 				<xforms:SfRotatorItem>
