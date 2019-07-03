@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syncfusion.WizardViews", "Syncfusion.WizardViews\Syncfusion.WizardViews.csproj", "{0335499A-7A02-4312-88EA-131CEB0754CC}"
 EndProject
@@ -130,8 +130,6 @@ Global
 		{A3FC0E74-9B5C-4F84-B6D9-D5854D7F1BCB}.Debug|ARM.Build.0 = Debug|Any CPU
 		{A3FC0E74-9B5C-4F84-B6D9-D5854D7F1BCB}.Debug|ARM.Deploy.0 = Debug|Any CPU
 		{A3FC0E74-9B5C-4F84-B6D9-D5854D7F1BCB}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{A3FC0E74-9B5C-4F84-B6D9-D5854D7F1BCB}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{A3FC0E74-9B5C-4F84-B6D9-D5854D7F1BCB}.Debug|iPhone.Deploy.0 = Debug|Any CPU
 		{A3FC0E74-9B5C-4F84-B6D9-D5854D7F1BCB}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{A3FC0E74-9B5C-4F84-B6D9-D5854D7F1BCB}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{A3FC0E74-9B5C-4F84-B6D9-D5854D7F1BCB}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU

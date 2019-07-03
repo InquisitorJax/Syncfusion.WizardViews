@@ -1,17 +1,43 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ContentView x:Class="Syncfusion.WizardViews.Page1View"
              xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms">
 	<ContentView.Content>
 		<Grid BackgroundColor="OrangeRed">
 			<Grid.RowDefinitions>
 				<RowDefinition Height="*" />
 				<RowDefinition Height="Auto" />
 			</Grid.RowDefinitions>
-			<Label HorizontalOptions="Center"
-			       Text="PAGE 1"
-			       TextColor="White"
-			       VerticalOptions="CenterAndExpand" />
+			<StackLayout>
+				<Label HorizontalOptions="Center"
+				       Text="PAGE 1"
+				       TextColor="White"
+				       VerticalOptions="CenterAndExpand" />
+
+				<progressBar:SfCircularProgressBar HeightRequest="80"
+				                                   HorizontalOptions="CenterAndExpand"
+				                                   IndicatorInnerRadius="0.8"
+				                                   IndicatorOuterRadius="1"
+				                                   Progress="50"
+				                                   ProgressColor="Blue"
+				                                   TrackColor="DarkGray"
+				                                   TrackInnerRadius="0.8"
+				                                   TrackOuterRadius="1"
+				                                   VerticalOptions="CenterAndExpand"
+				                                   WidthRequest="80">
+					<progressBar:SfCircularProgressBar.Content>
+						<Label FontSize="Small"
+						       HorizontalOptions="Center"
+						       Text="label"
+						       VerticalOptions="Center" />
+					</progressBar:SfCircularProgressBar.Content>
+					<progressBar:SfCircularProgressBar.GestureRecognizers>
+						<TapGestureRecognizer NumberOfTapsRequired="2" Tapped="TapGestureRecognizer_Tapped" />
+					</progressBar:SfCircularProgressBar.GestureRecognizers>
+				</progressBar:SfCircularProgressBar>
+
+			</StackLayout>
 
 			<StackLayout Grid.Row="1"
 			             HorizontalOptions="Center"

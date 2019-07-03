@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Prism.Core" Version="7.1.0.431" />
+    <PackageReference Include="Syncfusion.Xamarin.SfProgressBar" Version="17.1.0.53" />
     <PackageReference Include="Syncfusion.Xamarin.SfRotator" Version="17.1.0.53" />
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
   </ItemGroup>
